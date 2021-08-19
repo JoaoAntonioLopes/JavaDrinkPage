@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Calcula Cachaça</title>
+</head>
+<body>
+    <form class="form">
+        <div class="imgSide">
+            <img src="./drinkDiv.jpg" alt="Some Drinks" class="sideImg">
+        </div>
+        <div class="inputSide">
+            <div class="inputBox">
+                <label for="name">Qual o nome da sua cachaça?</label>
+                <input type="text" id="name" maxlength="12" placeholder="ex: Boazinha">
+            </div>
+            <div class="inputBox">
+                <label for="price">Qual o preço da sua cachaça?</label>
+                <input type="text" id="price" placeholder="10.50"><abbr title="reais">R$</abbr>
+            </div>
+            <div class="inputBox">
+                <select name="type" id="type">
+                    <option value="destilado">Destilado</option>
+                    <option value="fermentado">Fermentado</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <label for="name">Qual o teor alcoólico?</label>
+                <input type="text" id="percent" maxlength="5" placeholder="10.58"><abbr title="percent">%</abbr>
+            </div>
+                <button id="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+<script src="Script.js"></script>
+</html>

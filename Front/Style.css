@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url('./drinkBG.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+form{
+    /*center the form*/
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin: 0 25em 0 23em;
+    top: 80px;
+    width: fit-content;
+    background-color: rgb(220, 233, 247);
+    padding: 7px;
+    border-radius: 7px;
+}
+.sideImg{
+    height: 530px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 25px;
+    border-radius: 7px 0 0 7px;
+}
+.inputBox{
+    margin: 5px auto 10px;
+    border: lightcoral solid 1px;
+    border-radius: 7px;
+    padding: 10px 10px;
+}
+input, label{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 19px;
+    border-radius: 7px;
+    background-color: inherit;
+}
+label{
+    margin-bottom: 20px;
+}
+input{
+    border: lightskyblue;
+    border-style: none none solid;
+    padding: 0 60px 5px 10px;
+}
+input:focus{
+    outline: none;
+}
+#submit{
+    position: relative;
+    top: 15px;
+    padding: 10px 155px;
+    font-size: 20px;
+    background-color: inherit;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+#type{
+    font-size: 20px;
+    padding: 0 110px;
+    border-radius: 7px;
+}
+abbr{
+    margin-left: 10px;
+}
+

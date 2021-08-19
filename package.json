@@ -1,0 +1,15 @@
+{
+  "name": "projetojavadrinkpage",
+  "version": "1.0.0",
+  "description": "Front End part of JDP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lopes, Rafaella & Peterson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
